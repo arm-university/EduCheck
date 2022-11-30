@@ -1,0 +1,57 @@
+Building library mbed-build (NUCLEO_F401RE, GCC_ARM)
+Scan: mbed_files
+Scan: student3
+Copy: NHD_0216HZ.h
+Copy: main_app.h
+Copy: test_player_class.h
+Copy: mp3player.h
+Copy: song_def.h
+Copy: song.h
+Compile [ 99.7%]: main.cpp
+Compile [ 99.8%]: NHD_0216HZ.cpp
+Compile [ 99.9%]: test_player_class.cpp
+Compile [100.0%]: mp3player.cpp
+[Warning] mp3player.h@103,8: 'main_app::mp3player::allsongs' will be initialized after [-Wreorder]
+[Warning] mp3player.h@99,10:   'mbed::BusOut main_app::mp3player::song_number' [-Wreorder]
+[Warning] mp3player.cpp@11,1:   when initialized here [-Wreorder]
+[Error] mp3player.cpp@28,19: expected ';' before 'lcd'
+[Warning] mp3player.cpp@94,140: 'void mbed::TickerBase::attach(F&&, float) [with F = mbed::Callback<void()>]' is deprecated: Pass a chrono duration, not a float second count. For example use `10ms` rather than `0.01f`. [since mbed-os-6.0.0] [-Wdeprecated-declarations]
+[ERROR] In file included from ..\STUDENT_HOMEWORK\student3\mp3player.cpp:2:
+./LAB_FILES/Lab_7_code/include/mp3player.h: In constructor 'main_app::mp3player::mp3player()':
+./LAB_FILES/Lab_7_code/include/mp3player.h:103:8: warning: 'main_app::mp3player::allsongs' will be initialized after [-Wreorder]
+  103 |   Song allsongs[8];
+      |        ^~~~~~~~
+./LAB_FILES/Lab_7_code/include/mp3player.h:99:10: warning:   'mbed::BusOut main_app::mp3player::song_number' [-Wreorder]
+   99 |   BusOut song_number;
+      |          ^~~~~~~~~~~
+..\STUDENT_HOMEWORK\student3\mp3player.cpp:11:1: warning:   when initialized here [-Wreorder]
+   11 | mp3player::mp3player() : lcd(SPI_CS, SPI_MOSI, SPI_SCLK), // instantiate the lcd object
+      | ^~~~~~~~~
+..\STUDENT_HOMEWORK\student3\mp3player.cpp:28:19: error: expected ';' before 'lcd'
+   28 |     lcd.init_lcd()
+      |                   ^
+      |                   ;
+   29 |     lcd.clr_lcd();
+      |     ~~~            
+..\STUDENT_HOMEWORK\student3\mp3player.cpp: In member function 'void main_app::mp3player::timer_ISR()':
+..\STUDENT_HOMEWORK\student3\mp3player.cpp:94:140: warning: 'void mbed::TickerBase::attach(F&&, float) [with F = mbed::Callback<void()>]' is deprecated: Pass a chrono duration, not a float second count. For example use `10ms` rather than `0.01f`. [since mbed-os-6.0.0] [-Wdeprecated-declarations]
+   94 |             timer.attach(callback(this, &mp3player::timer_ISR), ((*(allsongs[song_index].beat + k) / 3) + (allsongs[song_index].tempo / 2)));
+      |                                                                                                                                            ^
+In file included from ./mbed-os/mbed.h:82,
+                 from ..\STUDENT_HOMEWORK\student3\mp3player.cpp:1:
+./mbed-os/drivers/include/drivers/Ticker.h:92:10: note: declared here
+   92 |     void attach(F &&func, float t)
+      |          ^~~~~~
+
+Failed to build library
+
+Memory map breakdown for built projects (values in Bytes):
+| name | target | toolchain | static_ram | total_flash |
+|------|--------|-----------|------------|-------------|
+
+
+Build failures:
+  * NUCLEO_F401RE::GCC_ARM::MBED-BUILD
+        
+[mbed] Working path "C:\Users\oyiben01\Documents\git_projects\educheck\codegrader\mbed_files" (library)
+[mbed] Program path "C:\Users\oyiben01\Documents\git_projects\educheck\codegrader\mbed_files"
