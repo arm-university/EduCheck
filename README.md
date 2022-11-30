@@ -33,10 +33,10 @@ The Educheck tool was tested in the following environment:
 - GNU Compiler: GNU Arm Embedded Toolchain
 (9_2020_q2_update)
 
-**Note: See the [`Getting_Started.md`](./docs/Getting_Started.md) documentation for installation information.**
+**Note: See the [`Getting_Started.md`](codegrader/docs/Getting_Started.md) documentation for installation information.**
 
 # Getting started
-See the [`Getting_Started.md`](./docs/Getting_Started.md) documentation for installation information and how to
+See the [`Getting_Started.md`](codegrader/docs/Getting_Started.md) documentation for installation information and how to
 run Educheck.
 
 # Expected directory structure
@@ -62,10 +62,10 @@ run Educheck.
     ├── install.bat                     // Installation file for Educheck
 ```
 
-See the [`Getting_Started.md`](./docs/Getting_Started.md) for more information.
+See the [`Getting_Started.md`](codegrader/docs/Getting_Started.md) for more information.
 
 # Known issues:
-Please read the [`Troubleshooting_Guide.md`](./docs/Troubleshooting_Guide.md) for more information.
+Please read the [`Troubleshooting_Guide.md`](codegrader/docs/Troubleshooting_Guide.md) for more information.
 
 # Contribution
 Please contact rsh-edu-eng@arm.com if you would like to contribute or if you have any comments on Educheck.
