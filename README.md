@@ -5,7 +5,7 @@ Educheck is an auto grader tool for coding exercises developed by Arm Education.
 - Assumes that an incomplete skeleton code will be provided to the students who will fill in the blanks or build their code upon.
 - Does not assess code quality or plagiarism in submissions at the moment.
 - Provides HTML report for student code grades, for example: </br>
-    <img src="labcheck_html_result.PNG" alt="Educheck HTML report" width="60% "/>
+    <img src="codegrader/docs/labcheck_html_result.PNG" alt="Educheck HTML report" width="60% "/>
 
 # Requirements
 ## Hardware requirements:
