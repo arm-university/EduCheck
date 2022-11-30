@@ -41,32 +41,6 @@ The Educheck tool was tested in the following environment:
 See the [`Getting_Started.md`](./docs/Getting_Started.md) documentation for installation information and how to
 run Educheck.
 
-# [Arm Internal only] Cloning Educheck from Git
-## For first-time users (non-code contributors):
-1. Ensure Git has been installed.
-2. Open a command terminal and set Git username and email:
-    ```
-    git config --global user.name "Arm UserName, e.g. abc01"
-    git config --global user.email your_arm_email_address@arm.com
-    ```
-3. Clone the Educheck Repo
-    ```
-    git clone "https://eu-gerrit-1.euhpc.arm.com/edu-research/educheck"
-    ```
-4. Change directory to educheck and switch branch to development-interface
-    ```
-    cd educheck
-    git checkout development-interface
-    ```
-## For Arm Education code contributors:
-1. Go to https://eu-gerrit-1.euhpc.arm.com/admin/repos/edu-research/educheck and make sure you are signed in (top right icon).
-2. Copy the **Clone with commit-hook** command and run the command in your terminal. (the clone command should use ssh with your Arm username)
-3. Change directory to educheck and switch branch to development-interface
-    ```
-    cd educheck
-    git checkout development-interface
-    ```
-
 # Expected directory structure
 **You must put unique student folders containing the code to be tested in the STUDENT_HOMEWORK folder. Each unique student folder should not have nested folders. A working example would be: *STUDENT_HOMEWORK/student1/mp3player.cpp*.** The Educheck tool expects the following directory structure.
 ```
