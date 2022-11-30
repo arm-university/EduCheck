@@ -1,7 +1,5 @@
 # What is Educheck?
-Educheck is an auto grader tool for coding exercises developed by Arm Education.
-
-Educheck:
+Educheck is an auto grader tool for coding exercises developed by Arm Education. It does the following:
 - Grades code functionality in the lab exercises supplied with the Arm Education Kit.
 - Leverages on the Arm Mbed OS and Mbed Greentea to perform functional testing on submitted code, i.e. checks if the students' code will produce expected outputs and runs the test on a physical Mbed-enabled board.
 - Assumes that an incomplete skeleton code will be provided to the students who will fill in the blanks or build their code upon.
