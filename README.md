@@ -66,7 +66,3 @@ See the [`Getting_Started.md`](codegrader/docs/Getting_Started.md) for more info
 
 # Known issues:
 Please read the [`Troubleshooting_Guide.md`](codegrader/docs/Troubleshooting_Guide.md) for more information.
-
-# Contribution
-Please contact rsh-edu-eng@arm.com if you would like to contribute or if you have any comments on Educheck.
-
