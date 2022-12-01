@@ -1,27 +1,27 @@
-# Educheck
-Educheck is an auto grader tool for coding exercises developed by Arm Education. It does the following:
+# EduCheck
+EduCheck is an auto grader tool for coding exercises developed by Arm Education. It does the following:
 - Grades code functionality in the lab exercises supplied with the Arm Education Kit.
 - Leverages on the Arm Mbed OS and Mbed Greentea to perform functional testing on submitted code, i.e. checks if the students' code will produce expected outputs and runs the test on a physical Mbed-enabled board.
 - Assumes that an incomplete skeleton code will be provided to the students who will fill in the blanks or build their code upon.
 - Does not assess code quality or plagiarism in submissions at the moment.
 - Provides HTML report for student code grades, for example: </br>
-    <img src="codegrader/docs/labcheck_html_result.PNG" alt="Educheck HTML report" width="60% "/>
+    <img src="codegrader/docs/labcheck_html_result.PNG" alt="EduCheck HTML report" width="60% "/>
 
 # Requirements
 ## Hardware requirements:
-Educheck requires the following hardware:
+EduCheck requires the following hardware:
 - An Arm Mbed-enabled board.
 
-**Note: Educheck currently will not work if you do not connect a Mbed-enabled board while running Educheck. However you will not need any lab peripherals connected to the board itself.**
+**Note: EduCheck currently will not work if you do not connect a Mbed-enabled board while running EduCheck. However you will not need any lab peripherals connected to the board itself.**
 
-The following boards were tested with Educheck:
+The following boards were tested with EduCheck:
 - STMF746G-DISCO
 - NUCLEO-F401RE
 - NUCLEO-F091RC
 - LPC-1768
 
 ## Software requirements
-The Educheck tool was tested in the following environment:
+The EduCheck tool was tested in the following environment:
 - Windows OS 10 (not WSL)
 - mbed-cli 1.10.5 (Mbed Command Line Interface package)
 - Mbed OS 6.5
@@ -37,10 +37,10 @@ The Educheck tool was tested in the following environment:
 
 # Getting started
 See the [`Getting_Started.md`](codegrader/docs/Getting_Started.md) documentation for installation information and how to
-run Educheck.
+run EduCheck.
 
 # Expected directory structure
-**You must put unique student folders containing the code to be tested in the STUDENT_HOMEWORK folder. Each unique student folder should not have nested folders. A working example would be: *STUDENT_HOMEWORK/student1/mp3player.cpp*.** The Educheck tool expects the following directory structure.
+**You must put unique student folders containing the code to be tested in the STUDENT_HOMEWORK folder. Each unique student folder should not have nested folders. A working example would be: *STUDENT_HOMEWORK/student1/mp3player.cpp*.** The EduCheck tool expects the following directory structure.
 ```
 .
 └── educheck
