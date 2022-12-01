@@ -1,6 +1,6 @@
 Arm Education has made EduCheck open for modification and additions. Contributions are an important part of our materials, and our goal is to make it as simple as possible to become a contributor.
 
-You can make contributions to lecture and labs. Arm Education uses the following license - [License]()
+You can make contributions to lecture and labs. Arm Education uses the following license - [License](https://github.com/arm-university/EduCheck/blob/main/LICENSE/License.md)
 
 To encourage collaboration, as well as robust, consistent and maintainable content, we have developed a set of guidelines for contributing to these materials.
 
