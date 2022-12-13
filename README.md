@@ -1,4 +1,7 @@
 # EduCheck
+Welcome to the EduCheck auto grader tool.
+### [Download the tool here](https://github.com/arm-university/EduCheck/archive/refs/heads/main.zip)
+
 EduCheck is an auto grader tool for coding exercises developed by Arm Education. It does the following:
 - Grades code functionality in the lab exercises supplied with the Arm Education Kit.
 - Leverages on the Arm Mbed OS and Mbed Greentea to perform functional testing on submitted code, i.e. checks if the students' code will produce expected outputs and runs the test on a physical Mbed-enabled board.
@@ -6,6 +9,23 @@ EduCheck is an auto grader tool for coding exercises developed by Arm Education.
 - Does not assess code quality or plagiarism in submissions at the moment.
 - Provides HTML report for student code grades, for example: </br>
     <img src="codegrader/docs/labcheck_html_result.PNG" alt="EduCheck HTML report" width="60% "/>
+
+## Getting Involved
+We welcome contributions, amendments & modifications to this education kit. For details, please click on the following links:
+
+* [How to contribute](https://github.com/arm-university/EduCheck/blob/main/Contributions_and_Modifications/Contributions_and_Modifications.md)
+* [Type of modifications](https://github.com/arm-university/EduCheck/blob/main/Contributions_and_Modifications/Desired_Contributions.md) we are looking for. We also use [Projects](https://github.com/arm-university/EduCheck/projects) to track progress.
+* [Workflow](https://github.com/arm-university/EduCheck/blob/main/Contributions_and_Modifications/workflow.pdf)
+
+## License
+You are free to amend, modify, fork or clone this material. See [License.md](https://github.com/arm-university/EduCheck/blob/main/License/License.md) for the complete license.
+
+## Inclusive Language Commitment
+Arm is committed to making the language we use inclusive, meaningful, and respectful. Our goal is to remove and replace non-inclusive language from our vocabulary to reflect our values and represent our global ecosystem.
+ 
+Arm is working actively with our partners, standards bodies, and the wider ecosystem to adopt a consistent approach to the use of inclusive language and to eradicate and replace offensive terms. We recognise that this will take time. This course contains references to non-inclusive language; it will be updated with newer terms as those terms are agreed and ratified with the wider community. 
+ 
+Contact us at education@arm.com with questions or comments about this tool. You can also report non-inclusive and offensive terminology usage in Arm content at terms@arm.com.
 
 # Requirements
 ## Hardware requirements:
