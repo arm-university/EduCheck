@@ -15,7 +15,7 @@ We welcome contributions, amendments & modifications to this education kit. For 
 
 * [How to contribute](https://github.com/arm-university/EduCheck/blob/main/Contributions_and_Modifications/Contributions_and_Modifications.md)
 * [Type of modifications](https://github.com/arm-university/EduCheck/blob/main/Contributions_and_Modifications/Desired_Contributions.md) we are looking for. We also use [Projects](https://github.com/arm-university/EduCheck/projects) to track progress.
-* [Workflow](https://github.com/arm-university/EduCheck/blob/main/Contributions_and_Modifications/workflow.pdf)
+* [Workflow](https://github.com/arm-university/Rapid-Embedded-Education-Kit/blob/main/Contributions_and_Modifications/workflow.pdf)
 
 ## License
 You are free to amend, modify, fork or clone this material. See [License.md](https://github.com/arm-university/EduCheck/blob/main/License/License.md) for the complete license.
