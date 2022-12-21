@@ -11,11 +11,11 @@ EduCheck is an auto grading tool for coding exercises in the [Rapid Embedded Edu
     <img src="codegrader/docs/labcheck_html_result.PNG" alt="EduCheck HTML report" width="60% "/>
 
 ## Getting Involved
-We welcome contributions, amendments & modifications to this education kit. For details, please click on the following links:
+We welcome contributions, amendments & modifications to this tool. For details, please click on the following links:
 
 * [How to contribute](https://github.com/arm-university/EduCheck/blob/main/Contributions_and_Modifications/Contributions_and_Modifications.md)
 * [Type of modifications](https://github.com/arm-university/EduCheck/blob/main/Contributions_and_Modifications/Desired_Contributions.md) we are looking for. We also use [Projects](https://github.com/arm-university/EduCheck/projects) to track progress.
-* [Workflow](https://github.com/arm-university/Rapid-Embedded-Education-Kit/blob/main/Contributions_and_Modifications/workflow.pdf)
+* [Workflow](https://github.com/arm-university/EduCheck/blob/main/Contributions_and_Modifications/workflow.pdf)
 
 ## License
 You are free to amend, modify, fork or clone this material. See [License.md](https://github.com/arm-university/EduCheck/blob/main/LICENSE/License.md) for the complete license.
