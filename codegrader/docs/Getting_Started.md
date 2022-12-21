@@ -97,9 +97,9 @@ The Educheck Git Repo provides a series of Greentea tests written specifically t
 To run the Educheck tool for the final lab exercise of the Rapid Embedded Education Kit, follow these steps:
 
 1. Place all **student folders** containing the submitted code in `educheck\codegrader\STUDENT_HOMEWORK\`.
-    **Note: You must put unique student folders containing the code to be tested in the STUDENT_HOMEWORK folder. Each unique student folder should not have nested folders. A working example would be: *STUDENT_HOMEWORK/student1/mp3player.cpp*.** See [`codegrader\README.md`](../README.md) for expected directory structure). Currently the folder already contains example studnet submissions.
+    **Note: You must put unique student folders containing the code to be tested in the STUDENT_HOMEWORK folder. Each unique student folder should not have nested folders. A working example would be: *STUDENT_HOMEWORK/student1/mp3player.cpp*.** Currently the folder already contains example studnet submissions.
 2. Ensure that you do not have Mbed Studio open. This may interfere with the COM port permission.
-3. Connect your PC to an Mbed-enabled board (see [`codegrader\README.md`](../README.md) for tested boards).
+3. Connect your PC to an Mbed-enabled board.
 4. Run the `mbedls` command to ensure that your board has been detected. For example:
     ```
     C:\> mbedls
@@ -170,5 +170,4 @@ You can start by looking at the Educheck's Greentea tests in `educheck/codegrade
  Please contact Arm Education rsh-edu-eng@arm.com for more information.
 
 ## What if I don't use Mbed in my code?
-Educheck uses Mbed tools and Mbed Greentea and thus Educheck will not work on any code that do not use Mbed.
-
+Educheck uses Mbed tools and Mbed Greentea and thus Educheck will not work on any code that does not use Mbed.
