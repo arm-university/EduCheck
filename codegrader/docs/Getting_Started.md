@@ -58,7 +58,7 @@ For example, you can use pip:
     ```
 
 ### Compiler
-1. Install the GNU Arm Embedded Toolchain version listed in the [ReadMe](https://github.com/arm-university/EduCheck/blob/main/README.md#software-requirements) from https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm .
+1. Install the GNU Arm Embedded Toolchain version listed in the [ReadMe](https://github.com/arm-university/EduCheck/blob/main/README.md#software-requirements) from [Arm Developer] (https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm)
 2. Ensure you add the installation path (`<installationpath\GNU Arm Embedded Toolchain\9 2020-q2-update\bin>`) in your environment variable PATH, similar to how it was done for the Python set up.
 3. Verify that the installation is successful by running the following command in your terminal:
     ```
