@@ -3,7 +3,7 @@
 
 # Installing Prerequisites
 ### Python
-1. Install the Python version listed in [`EduCheck\README.md`](https://github.com/arm-university/EduCheck/blob/main/README.md#software-requirements) from https://www.python.org/
+1. Install the Python version listed in [`EduCheck\README.md#software-requirements`](https://github.com/arm-university/EduCheck/blob/main/README.md#software-requirements) from https://www.python.org/
 2. Add installation path to PATH:
 
     a. Click the Windows start button and type *Environment Variables*. Select *Edit the system environment variables*.
