@@ -89,7 +89,7 @@ For example, you can use pip:
     - `LAB_FILES` folder: All supporting code for labs and educheck Greentea tests to grade submitted code functionality.
     - `LAB_SOLUTION` folder: Code solution (for lecturer's reference).
     - `labcheck` folder: Educheck Python CLI scripts that run the grading.
-    - and other files such as [`README.md`](../README.md), [`setup.py`](../setup.py), [`requirements.txt`](../requirements.txt), and [`LICENSES folder`](../LICENSES)
+    - and other files such as [`setup.py`](https://github.com/arm-university/EduCheck/blob/main/codegrader/codechecker/setup.py) and [`requirements.txt`](https://github.com/arm-university/EduCheck/blob/main/codegrader/codechecker/requirements.txt)
 
 # Running Educheck tool
 The Educheck Git Repo provides a series of Greentea tests written specifically to test code functionality for the final lab exercise in the Rapid Embedded Education Kit. The Greentea tests provided target specific lab code exercise features such as polling loop, LCD display, etc...
