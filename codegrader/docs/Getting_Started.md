@@ -26,7 +26,7 @@
     ```
 
 ### Mercurial
-1. Install the Mercurial version listed in [`codegrader\README.md`](../README.md) from https://www.mercurial-scm.org/wiki/Download.
+1. Install the Mercurial version listed in the [ReadMe](https://github.com/arm-university/EduCheck/blob/main/README.md#software-requirements) from https://www.mercurial-scm.org/wiki/Download.
 For example, you can use pip:
     ```
     pip install Mercurial
