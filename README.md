@@ -4,7 +4,7 @@ Welcome to the EduCheck auto grader tool.
 
 EduCheck is an auto grading tool for coding exercises in the [Rapid Embedded Education Kit](https://github.com/arm-university/Rapid-Embedded-Education-Kit). It does the following:
 - Grades code functionality in the lab exercises supplied with the Rapid Embedded Arm Education Kit.
-- Leverages on the Arm Mbed OS and Mbed Greentea to perform functional testing on submitted code, i.e., checks if the students' code will produce the expected outputs and runs the test on a physical Mbed-enabled board.
+- Leverages Arm Mbed OS and Mbed Greentea to perform functional testing on submitted code, i.e., checks if the students' code will produce the expected outputs and runs the test on a physical Mbed-enabled board.
 - Assumes that an incomplete skeleton code will be provided to the students who will fill in the blanks or build their code upon it.
 - Does not assess code quality or plagiarism in submissions at the moment.
 - Provides an HTML report for student code grades, for example: </br>
