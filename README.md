@@ -1,5 +1,5 @@
-# EduCheck
-Welcome to the EduCheck auto grader tool.
+# EduCheck code grading tool
+Welcome to the EduCheck code grading tool.
 ### [Download the tool here](https://github.com/arm-university/EduCheck/archive/refs/heads/main.zip)
 
 EduCheck is an auto grading tool for coding exercises in the [Rapid Embedded Education Kit](https://github.com/arm-university/Rapid-Embedded-Education-Kit). It does the following:
