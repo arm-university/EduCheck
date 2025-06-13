@@ -1,6 +1,10 @@
 # EduCheck code grading tool
+
+## Important
+### To download the latest stable version, please click below instead of using the "Download ZIP" button.
+### [Click here to download](https://github.com/arm-university/EduCheck/releases/download/v2.0.0/EduCheck-main.zip)
+
 Welcome to the EduCheck code grading tool.
-### [Download the tool here](https://github.com/arm-university/EduCheck/archive/refs/heads/main.zip)
 
 EduCheck is an auto grading tool for coding exercises in the [Rapid Embedded Education Kit](https://github.com/arm-university/Rapid-Embedded-Education-Kit). It does the following:
 - Grades code functionality in the lab exercises supplied with the Rapid Embedded Arm Education Kit.
